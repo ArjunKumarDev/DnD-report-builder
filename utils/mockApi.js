@@ -23,19 +23,19 @@ export const fetchMockCampaignData = async () => {
             metrics: {
               impressions: 90000,
               clicks: 9000,
-              conversions: 65,
-              cost: 315.5,
-              ctr: 1.0,
+              conversions: 6965,
+              cost: 3935.5,
+              ctr: 1000.0,
             },
           },
           {
             adName: "Banner Ad 2",
             metrics: {
               impressions: 60000,
-              clicks: 300,
-              conversions: 30,
-              cost: 135.25,
-              ctr: 0.5,
+              clicks: 3000,
+              conversions: 3000,
+              cost: 2325.25,
+              ctr: 1000.5,
             },
           },
         ],
@@ -47,20 +47,95 @@ export const fetchMockCampaignData = async () => {
             adName: "Video Ad 1",
             metrics: {
               impressions: 50000,
-              clicks: 450,
-              conversions: 25,
-              cost: 375.25,
-              ctr: 0.9,
+              clicks: 4050,
+              conversions: 2885,
+              cost: 3795.25,
+              ctr: 100.9,
             },
           },
           {
             adName: "Video Ad 2",
             metrics: {
               impressions: 30000,
-              clicks: 250,
-              conversions: 20,
-              cost: 225.25,
+              clicks: 59050,
+              conversions: 2490,
+              cost: 4305.25,
+              ctr: 40308,
+            },
+          },
+        ],
+      },
+      {
+        adGroupName: "Facebook Ads",
+        ads: [
+          {
+            adName: "FB Ad 1",
+            metrics: {
+              impressions: 500000,
+              clicks: 45000,
+              conversions: 1295,
+              cost: 575.25,
+              ctr: 0.9,
+            },
+          },
+          {
+            adName: "FB Ad 2",
+            metrics: {
+              impressions: 300000,
+              clicks: 5000,
+              conversions: 1000,
+              cost: 1225.25,
+              ctr: 40.8,
+            },
+          },
+        ],
+      },
+      {
+        adGroupName: "Twitter Ads",
+        ads: [
+          {
+            adName: "Twitter Ad 1",
+            metrics: {
+              impressions: 80000,
+              clicks: 5000,
+              conversions: 2450,
+              cost: 1375.25,
+              ctr: 500,
+            },
+          },
+          {
+            adName: "Twitter Ad 2",
+            metrics: {
+              impressions: 300000,
+              clicks: 2350,
+              conversions: 400,
+              cost: 255.25,
               ctr: 0.8,
+            },
+          },
+        ],
+      },
+      {
+        adGroupName: "Instagram Ads",
+        ads: [
+          {
+            adName: "Instagram Ad 1",
+            metrics: {
+              impressions: 500000,
+              clicks: 4500,
+              conversions: 255,
+              cost: 355.25,
+              ctr: 0.9,
+            },
+          },
+          {
+            adName: "Instagram Ad 2",
+            metrics: {
+              impressions: 300000,
+              clicks: 25000,
+              conversions: 2000,
+              cost: 525.25,
+              ctr: 1.5,
             },
           },
         ],
